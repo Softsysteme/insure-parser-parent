@@ -35,6 +35,6 @@
 		<version>1.10.3</version>
 	</parent>
 	<modules>
-		<module>../de.adesso.ais.insure-parser</module>
+		<module>../insure-parser</module>
 	</modules>
 </project>
