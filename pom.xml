@@ -13,6 +13,21 @@
 				<version>1.10.3</version>
 			</dependency>
 			<dependency>
+				<groupId>de.adesso.ais.domain-reference</groupId>
+				<artifactId>domain-reference-gen</artifactId>
+				<version>1.10.3</version>
+			</dependency>
+			<dependency>
+				<groupId>de.adesso.ais.domain-reference</groupId>
+				<artifactId>domain-reference-daten</artifactId>
+				<version>1.10.3</version>
+			</dependency>
+			<dependency>
+				<groupId>de.adesso.ais.domain-reference</groupId>
+				<artifactId>domain-reference-daten-gen</artifactId>
+				<version>1.10.3</version>
+			</dependency>
+			<dependency>
 				<groupId>insure.core</groupId>
 				<artifactId>insure-core</artifactId>
 				<version>1.10.3</version>
@@ -25,6 +40,11 @@
 			<dependency>
 				<groupId>de.adesso.ais.infoservice-reference</groupId>
 				<artifactId>infoservice-reference-daten</artifactId>
+				<version>1.10.3</version>
+			</dependency>
+			<dependency>
+				<groupId>de.adesso.ais.infoservice-reference</groupId>
+				<artifactId>infoservice-reference-daten-gen</artifactId>
 				<version>1.10.3</version>
 			</dependency>
 			<dependency>
