@@ -8,6 +8,11 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
+				<groupId>de.adesso.ais.infoservice-reference</groupId>
+				<artifactId>infoservice-reference-gen</artifactId>
+				<version>1.10.3</version>
+			</dependency>
+			<dependency>
 				<groupId>insure.infoservice</groupId>
 				<artifactId>insure-infoservice-gen</artifactId>
 				<version>1.10.3</version>
@@ -65,16 +70,6 @@
 			<dependency>
 				<groupId>insure.core</groupId>
 				<artifactId>insure.core.modell</artifactId>
-				<version>1.10.3</version>
-			</dependency>
-			<dependency>
-				<groupId>insure.domain</groupId>
-				<artifactId>insure.domain.modell</artifactId>
-				<version>1.10.3</version>
-			</dependency>
-			<dependency>
-				<groupId>insure.infoservice</groupId>
-				<artifactId>insure.infoservice.modell</artifactId>
 				<version>1.10.3</version>
 			</dependency>
 		</dependencies>
