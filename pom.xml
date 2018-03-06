@@ -10,47 +10,93 @@
 			<dependency>
 				<groupId>de.adesso.ais.infoservice-reference</groupId>
 				<artifactId>infoservice-reference-gen</artifactId>
-				<version>1.10.3</version>
+				<version>1.13.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>de.adesso.ais.infoservice-reference</groupId>
+				<artifactId>infoservice-reference-modell</artifactId>
+				<version>1.13.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>insure.infoservice</groupId>
 				<artifactId>insure-infoservice-gen</artifactId>
-				<version>1.10.3</version>
+				<version>1.13.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>insure.infoservice</groupId>
+				<artifactId>insure-infoservice-modell</artifactId>
+				<version>1.13.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>insure.domain</groupId>
+				<artifactId>insure.domain.modell</artifactId>
+				<version>1.13.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>insure.domain</groupId>
+				<artifactId>insure.domain.daten</artifactId>
+				<version>1.13.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>insure.domain</groupId>
+				<artifactId>insure-domain-gen</artifactId>
+				<version>1.13.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>de.adesso.ais.domain-reference</groupId>
 				<artifactId>domain-reference-gen</artifactId>
-				<version>1.10.3</version>
+				<version>1.13.0-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>de.adesso.ais.domain-reference</groupId>
+				<artifactId>de.adesso.ais.domainreference.modell</artifactId>
+				<version>1.13.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>de.adesso.ais.domain-reference</groupId>
 				<artifactId>domain-reference-daten</artifactId>
-				<version>1.10.3</version>
+				<version>1.13.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>de.adesso.ais.domain-reference</groupId>
 				<artifactId>domain-reference-daten-gen</artifactId>
-				<version>1.10.3</version>
+				<version>1.13.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>insure.core</groupId>
 				<artifactId>insure-core</artifactId>
-				<version>1.10.3</version>
+				<version>1.13.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>insure.infoservice</groupId>
 				<artifactId>insure.infoservice.daten</artifactId>
-				<version>1.10.3</version>
+				<version>1.13.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>insure.infoservice</groupId>
+				<artifactId>insure.infoservice.modell</artifactId>
+				<version>1.13.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>de.adesso.ais.infoservice-reference</groupId>
 				<artifactId>infoservice-reference-daten</artifactId>
-				<version>1.10.3</version>
+				<version>1.13.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>de.adesso.ais.infoservice-reference</groupId>
+				<artifactId>infoservice.reference.modell</artifactId>
+				<version>1.13.0-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>de.adesso.ais.domain-reference</groupId>
+				<artifactId>domain-reference</artifactId>
+				<version>1.13.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>de.adesso.ais.infoservice-reference</groupId>
 				<artifactId>infoservice-reference-daten-gen</artifactId>
-				<version>1.10.3</version>
+				<version>1.13.0-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>org.ehcache</groupId>
@@ -67,17 +113,17 @@
 				<artifactId>ecore</artifactId>
 				<version>2.3.0-v200706262000</version>
 			</dependency>
-			<dependency>
-				<groupId>insure.core</groupId>
-				<artifactId>insure.core.modell</artifactId>
-				<version>1.10.3</version>
-			</dependency>
+<!-- 			<dependency> -->
+<!-- 				<groupId>insure.core</groupId> -->
+<!-- 				<artifactId>insure.core.modell</artifactId> -->
+<!-- 				<version>1.10.3</version> -->
+<!-- 			</dependency> -->
 		</dependencies>
 	</dependencyManagement>
 	<parent>
 		<groupId>insure</groupId>
 		<artifactId>insure-bom</artifactId>
-		<version>1.10.3</version>
+		<version>1.13.0-SNAPSHOT</version>
 	</parent>
 	<modules>
 		<module>../insure-parser</module>
